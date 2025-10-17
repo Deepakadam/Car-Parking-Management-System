@@ -47,9 +47,15 @@
 2. Place the project folder in the `www` (WAMP) or `htdocs` (XAMPP) directory.  
 3. Open **phpMyAdmin** and create a database (e.g., `car_parking_db`).  
 4. Import the provided `.sql` file to create tables and sample data.  
-5. Update `config.php` with your database credentials:  
+5. Update `config.php` with your database credentials:
+6. Start Apache and MySQL from WAMP/XAMPP control panel.
+
+Open your browser and navigate to:
+http://localhost/Parking/
+
    ```php
    $host = "localhost";
    $user = "root";
    $pass = "";
    $db = "parking";
+
