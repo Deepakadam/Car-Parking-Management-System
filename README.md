@@ -58,4 +58,28 @@ http://localhost/Parking/
    $user = "root";
    $pass = "";
    $db = "parking";
+Usage
+
+Admin: Login to manage slots, view reports, and monitor bookings.
+
+User: Register/login to book parking slots and check booking history.
+
+Security: Login to track vehicle entry/exit and validate bookings.
+
+Screenshots
+
+(Add screenshots of main pages here to showcase your project)
+
+Future Enhancements
+
+Mobile-responsive interface
+
+Email/SMS notifications for bookings
+
+Analytics and dynamic pricing
+
+License
+
+This project is licensed under the MIT License.
+
 
