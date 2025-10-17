@@ -59,8 +59,18 @@ http://localhost/Parking/
    $pass = "";
    $db = "parking";
 
-## Usage
-- **Admin:** Login to manage slots, view reports, and monitor bookings.  
-- **User:** Register/login to book parking slots and check booking history.  
-- **Security:** Login to track vehicle entry/exit and validate bookings.  
+Usage:
+
+Admin: Login to manage slots, view reports, and monitor bookings.
+User: Register/login to book parking slots and check booking history.
+Security: Login to track vehicle entry/exit and validate bookings.
+
+Future Enhancements
+
+Mobile-responsive interface
+
+Email/SMS notifications for bookings
+
+Analytics and dynamic pricing
+
 
