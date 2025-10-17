@@ -58,7 +58,8 @@ http://localhost/Parking/
    $user = "root";
    $pass = "";
    $db = "parking";
-Usage
+
+## Usage
 
 Admin: Login to manage slots, view reports, and monitor bookings.
 
@@ -81,5 +82,6 @@ Analytics and dynamic pricing
 License
 
 This project is licensed under the MIT License.
+
 
 
