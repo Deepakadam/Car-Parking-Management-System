@@ -1,0 +1,60 @@
+
+create database carparking;
+
+use carparking;
+
+create table admin(
+	email varchar(50) primary key,
+	password varchar(10)
+);
+
+create table customer(
+	customercode int auto_increment primary key,
+	name varchar(20),
+	address varchar(100),
+        email varchar(50) unique,
+	phone varchar(10),
+	city varchar(20),
+	pincode varchar(6),
+	password varchar(10)
+   	);
+
+create table slot(
+	slotno int primary key
+		);
+
+create table booking(
+	bookingid int auto_increment primary key,
+	id int,
+	slotno int,
+	customercode int,
+	bookeddate date,
+	carno varchar(10),
+	fromtime varchar(10),
+	totime varchar(10),
+	amount int,
+	securitycode int,
+	status varchar(10),
+	foreign key(id) references slotsheet(id),
+	foreign key (customercode) references customer(customercode),
+	foreign key (slotno) references slot(slotno),
+	foreign key(securitycode) references security(securitycode)
+	);
+
+ create table security(
+     securitycode int auto_increment primary key,
+     name varchar(20),
+     address varchar(100),
+     email varchar(50) unique,
+     password varchar(10),
+     phone varchar(10));
+
+create table slotsheet(
+id int auto_increment primary key,
+slotno int,
+slotdate date,
+slottime varchar(10),
+status varchar(10));
+//Baskerville Old Face-------->font syle.
+
+
